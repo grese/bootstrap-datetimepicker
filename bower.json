@@ -28,6 +28,5 @@
     "timepicker",
     "moment"
   ],
-  "license": "MIT",
-  "private": false
+  "license": "MIT"
 }
