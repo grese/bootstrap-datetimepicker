@@ -1,35 +1,33 @@
 {
-  "name": "eonasdan-bootstrap-datetimepicker",
-  "version": "3.0.0",
+  "name": "bootstrap-datetimerangepicker",
+  "version": "0.0.1",
   "main": [
-    "build/css/bootstrap-datetimepicker.min.css",
-    "build/js/bootstrap-datetimepicker.min.js"
+    "bootstrap-datetimerangepicker.css",
+    "bootstrap-datetimerangepicker.js"
   ],
   "dependencies": {
     "jquery": ">=1.8.3",
+    "jquery-ui": ">= 1.10",
     "bootstrap": ">= 3.0",
     "moment": ">=2.4.0"
   },
-  "homepage": "https://github.com/Eonasdan/bootstrap-datetimepicker",
+  "homepage": "https://github.com/grese/bootstrap-datetimerangepicker",
   "authors": [
-    "Eonasdan"
+    "grese"
   ],
-  "description": "bootstrap3 datetimepicker",
+  "description": "Date/Time Range Picker for Bootstrap v3",
   "keywords": [
     "twitter-bootstrap",
     "bootstrap",
     "datepicker",
     "datetimepicker",
+    "datetimerangepicker",
+    "bootstrap-datetimepicker",
+    "bootstrap-datetimerangepicker",
+    "bootstrap-datepicker",
     "timepicker",
     "moment"
   ],
   "license": "MIT",
-  "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "private": false
 }
